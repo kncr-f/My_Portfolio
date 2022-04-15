@@ -135,7 +135,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-8 mx-10">
+                  <div className="flex items-center space-x-8 mx-80">
                     <Link href="/projects">
                       <a className="transition duration-300 text-xl projectLink" >Projects</a>
                     </Link>
