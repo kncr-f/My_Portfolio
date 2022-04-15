@@ -24,8 +24,42 @@ module.exports = {
           100: "#e6f8f9",
           200: "#b1e8ed",
         },
-      }
+      },
+
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: "#333",
+            a: {
+              color: "#e86ed0",
+              "&:hover": {
+                color: "#edb5f5",
+              },
+            },
+          },
+        },
+        dark: {
+          css: {
+            color: theme("colors.gray.100"),
+
+            a: {
+              color: theme("colors.purple.400"),
+              "&:hover": {
+                color: theme("colors.purple.300"),
+              },
+            },
+          },
+        },
+      }),
+
     },
   },
-  plugins: [],
-}
+  variant: {
+    extend: {
+      typography: ["dark"],
+    }
+  },
+  plugins: [
+    require("@tailwindcss/typography")
+  ],
+};
