@@ -99,10 +99,10 @@ export default function Home() {
               <pre>
                 <code className="language-js">
                   <div className="flex items-center py-0 my-0 space-x-4 text-gray-500">
-                    <span>// Portfolio.js </span>
+                    <span> Portfolio.js </span>
                   </div>
                   <p>
-                    <span className="text-gray-500">//</span>{" "}
+                    <span className="text-gray-500"></span>{" "}
                     <span className="text-purple-300">Todo:</span> You can drag
                     these balloons 🎈🎈 Just enjoy them... </p>
 
