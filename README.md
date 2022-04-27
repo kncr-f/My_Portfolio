@@ -1,4 +1,4 @@
-# Social_Network_Project
+# Portfolio
 
 My personal portfolio site, which I create with Next.js, GraphCMS and TailwindCSS.
 
