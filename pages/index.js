@@ -108,9 +108,9 @@ export default function Home() {
 
                   <div className="flex items-center space-x-4">
                     <img
-                      src="/images/profile.jpeg"
+                      src="images/profile.jpg"
                       alt="Me"
-                      className="w-14 h-14 rounded-full"
+                      id="profile_image"
                     />
 
                     <div className="">
@@ -124,13 +124,13 @@ export default function Home() {
                         <span className="text-pink-300"> {">"} </span> const
                         techWeb
                         <span className="font-bold text-pink-300">3</span> =
-                        [PostgreSQL, MongoDB, Express, Handlebars, Vue.js ];{" "}
+                        [PostgreSQL, MongoDB, Express, Handlebars];{" "}
                       </p>
                       <p className="text-sm">
                         <span className="text-pink-300"> {">"} </span> const
                         techWeb
                         <span className="font-bold text-pink-300">4</span> =
-                        [Jest, Jquery, Canvas, AWS, Socket.IO];{" "}
+                        [Vue.js, Jest, Jquery, Canvas, AWS, Socket.IO];{" "}
                       </p>
                     </div>
                   </div>
